@@ -11,9 +11,9 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    width: 30vw;
     color: white;
-    margin: 10% 30%;
+    margin: 10% 28%;
 }
 
 .form {
@@ -30,7 +30,7 @@ body {
 }
 
 input {
-    width: 300px;
+    width: 22vw;
     height: 40px;
     color: #7C7C7C;
     background-color: #292929;
@@ -44,7 +44,7 @@ input {
     width: 14px;
     display: flex;
     align-items: flex-start;
-    margin: -13px 10px 0 -5px;
+    margin: -13px 10px 0 -35px;
 }
 
 label {
@@ -56,9 +56,9 @@ label {
     margin-bottom: 20px;
 }
 button {
-    width: 20vw ;
+    width: 23vw ;
     height: 35px;
-    border-radius: 18px;
+    border-radius: 16px;
     color: white;
     background-color: #72DB73;
     font-weight: bold;
