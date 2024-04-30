@@ -8,9 +8,9 @@ function Home() {
     <>
     <div className="home">
     <div className='halfpart1' style={{position: 'relative'}}>
-        <img src={bgimg} alt="Background" style={{width: '100%', height: 'auto'}} />
+        <img src={bgimg} alt="Background" style={{width: '100%', height: '100%'}} />
         <div className="text-overlay">
-          <span style={{color: 'white', textAlign: 'center',fontSize:'1.2em',textAlign:'start'}}><h1>Discover new things on <br/> Superapp</h1></span>
+          <span style={{color: 'white',fontSize:'1.2em',textAlign:'start'}}><h1>Discover new things on <br/> Superapp</h1></span>
         </div>
       </div>
       <div className='halfpart2'><Registration/></div>
