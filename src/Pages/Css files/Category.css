@@ -1,0 +1,64 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.head2 {
+    font-family: 'Single Day';
+    color: #72DB73;
+    font-size: 60px;
+    margin: 15% 0 0 0;
+}
+
+.chips {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    text-align: start;
+    font-size: 1.5em;
+    height: 100vh;
+    margin: 20vh 10vw auto 10vw; 
+}
+
+.selectitem {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chips h1 {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+.category {
+    display: flex;
+    flex-wrap: wrap;
+    width: 55vw;
+    height: 80vh;
+    margin-right: -60px;
+    margin-top: 10vh;
+    
+}
+
+.nextbtn {
+    position: relative;
+    top: -20%;
+    width:auto;
+    padding: 0px 20px;
+    right: -35%;
+}
