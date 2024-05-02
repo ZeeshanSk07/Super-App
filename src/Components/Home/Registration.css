@@ -1,19 +1,19 @@
 body {
-    margin: 0;
-    padding: 0;
     width: 100vw;
     height: 100vh;
-    text-align: center;
-    flex-wrap: nowrap;
     background-color: black;
+    font-family: 'DM sans';
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
+    width: 44vw;
     color: white;
-    margin: 10% 28%;
+    padding: 0 ;
+    flex-direction: row;
+    justify-content: center; 
+       
 }
 
 .form {
@@ -21,13 +21,21 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top: 100px;
 }
 
 .head {
     font-family: 'Single Day';
     color: #72DB73;
     font-size: 60px;
-    margin: auto;
+    display: flex;
+    width: 22vw;
+    justify-content: center;
+    position: relative;
+    left: 13%;
+    bottom: -12%;
+    
+
 }
 
 input {
@@ -45,7 +53,7 @@ input {
     width: 14px;
     display: flex;
     align-items: flex-start;
-    margin: -13px 10px 0 -35px;
+    margin: -13px 10px 0 -8px;
 }
 
 label {
@@ -72,6 +80,7 @@ button {
     font-size: 14px;
     text-align: start;
     margin-bottom:5px;
+    width: 22vw;
 
 }
 

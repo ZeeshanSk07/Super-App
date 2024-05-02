@@ -1,24 +1,27 @@
 body {
+   
+    
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto';
     margin: 0;
     padding: 0;
-    display: flex;
-    width: 100vw;
-    max-height: 100vh;
-    
-    
 }
 
 .home {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
 .halfpart1 {
     display: flex;
     width: 50vw;
     height: 100vh;
+
     
 }
 
