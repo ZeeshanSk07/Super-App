@@ -18,11 +18,11 @@ function Section({ user, selected, setSelected }) {
           fontFamily: "DM sans",
           width: "150px",
           height: "150px",
-          border: "2px solid black",
+          border: selected.includes(user.id) ? "6px solid #11B800":"6px solid black",
           display: "flex",
           flexDirection: "column",
           backgroundColor: user.bg,
-          borderRadius: "10px",
+          borderRadius: "18px",
           margin: "30px 25px 10px 25px",
           padding: "5px",
         }}
@@ -34,7 +34,7 @@ function Section({ user, selected, setSelected }) {
             color: "white",
             textAlign: "start",
             marginBottom: "1px",
-            marginTop: "14px",
+            marginTop: "12px",
           }}
         >
           {user.name}
